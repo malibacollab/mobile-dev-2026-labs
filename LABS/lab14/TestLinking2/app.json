@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "TestLinking2",
+    "slug": "testlinking2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "testlinking2",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sudoping01.testlinking2"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "backgroundColor": "#2ECC71"
+      },
+      "package": "com.sudoping01.testlinking2",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/860295e8-1f47-4db5-92c4-a3c3efdbb120"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-updates",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#2ECC71"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "860295e8-1f47-4db5-92c4-a3c3efdbb120"
+      }
+    },
+    "owner": "sudoping01"
+  }
+}
